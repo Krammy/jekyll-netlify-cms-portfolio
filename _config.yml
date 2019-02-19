@@ -73,8 +73,6 @@ rss: rss
 collections:
   sections:
     relative_directory: "_sections"
-  topics:
-    relative_directory: "_topics"
 
 # defaults:
   # - scope:
