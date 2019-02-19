@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
             label: Project
             widget: object
             fields:
-              - {label: Title, name: title, widget: string, default: "My Amazing Project!"}
+              - {label: Title, name: title, widget: string, default: "Project Name"}
               - label: Image
                 name: image
                 widget: image
