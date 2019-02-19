@@ -76,9 +76,14 @@ collections:
   topics:
     relative_directory: "_topics"
 
-defaults:
-  - scope:
-      path: ""
-      type: "sections"
-    values:
-      layout: "topic"
+# defaults:
+  # - scope:
+      # path: "_sections"
+      # type: "sections"
+    # values:
+      # layout: "section"
+  # - scope:
+      # path: "_topics"
+      # type: "topics"
+    # values:
+      # layout: "topic"

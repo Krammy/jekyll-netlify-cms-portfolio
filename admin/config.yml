@@ -34,6 +34,19 @@ collections: # A list of collections the CMS should be able to edit
     folder: "_topics"
     create: true
     fields:
-      - {label: "Section", name: "section", widget: "relation", collection: "sections", searchFields: ["name"], valueField: "name"}
+      - label: "Section"
+        name: "section"
+        widget: "relation"
+        collection: "sections"
+        searchFields: ["title"]
+        valueField: "title"
+        
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+      
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
