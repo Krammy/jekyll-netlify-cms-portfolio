@@ -69,3 +69,16 @@ rss: rss
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  sections:
+    relative_directory: "_sections"
+  topics:
+    relative_directory: "_topics"
+
+defaults:
+  - scope:
+      path: ""
+      type: "sections"
+    values:
+      layout: "topic"
